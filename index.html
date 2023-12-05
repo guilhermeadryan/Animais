@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais em carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contatos</a>
+            <a href="">Informações</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/img1.jpg">
+                <div class="content">
+                    <div class="author"></div>
+                    <div class="title"></div>
+                    <div class="topic">GIRAFFA</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        A girafa (Giraffa camelopardalis) é um mamífero da ordem dos Cetartiodactyla e da família Giraffidae. Acredita-se que existam apenas uma espécie de girafa e nove subespécies, e essas habitam as regiões de florestas e savanas africanas. A girafa é conhecida, principalmente, por seu longo pescoço, o que desperta a curiosidade e o fascínio por esse animal.
+                    </div>
+                    <div class="buttons">
+                        <button>Veja mais!</button>
+                        <button>Inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img2.jpg">
+                <div class="content">
+                    <div class="author"></div>
+                    <div class="title"></div>
+                    <div class="topic">LEÃO</div>
+                    <div class="des">
+                        O leão é um mamífero carnívoro pertencente à família Felidae. Atualmente existe apenas uma espécie de leão, a Panthera leo, e cerca de sete subespécies. Esse animal habita algumas regiões da África e da Índia e, atualmente, encontra-se classificado como vulnerável, segundo a Lista Vermelha de Espécies Ameaçadas da União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN).
+
+Esse mamífero apresenta um corpo robusto com patas curtas e uma longa cauda, que o auxilia no equilíbrio. É considerado o maior predador africano vivo, e o maior peso registrado entre esses animais foi de 272 quilos. Alimenta-se, principalmente, de ungulados de médio a grande porte.
+                    </div>
+                    <div class="buttons">
+                        <button>Veja mais!</button>
+                        <button>Inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+                <div class="content">
+                    <div class="author"></div>
+                    <div class="title"></div>
+                    <div class="topic">Hipopótamo</div>
+                    <div class="des">
+                        O hipopótamo-comum (Hippopotamus amphibius) ou hipopótamo-do-nilo[1] é um mamífero herbívoro de grande porte da África subsariana e uma das duas únicas espécies não extintas da família Hippopotamidae, sendo a outra o hipopótamo-pigmeu.O seu nome provém do grego antigo, significando "cavalo do rio" (ἱπποπόταμος). Apesar das suas semelhanças físicas com os porcos e outros ungulados artiodáctilos (sendo por isso designado de animal porcino[2]), os seus parentes vivos mais próximos são os cetáceos (baleias, os golfinhos, etc.) dos quais divergiram há cerca de 55 milhões de anos.
+                    </div>
+                    <div class="buttons">
+                        <button>Veja mais!</button>
+                        <button>Inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img4.jpg">
+                <div class="content">
+                    <div class="author"></div>
+                    <div class="title"></div>
+                    <div class="topic">JAGUATIRICA</div>
+                    <div class="des">
+                        A jaguatirica é um felino neotropical que apresenta grande distribuição geográfica. A espécie ocorre em diferentes hábitats, sendo possível observá-la desde o Cerrado até florestas tropicais. Jaguatiricas são felinos de médio porte e que apresentam pelagem com rosetas abertas que se unem formando bandas longitudinais na lateral do corpo.
+
+Alimentam-se, principalmente, de pequenos mamíferos, mas também podem se alimentar de presas grandes, como capivaras e macacos. A espécie é solitária e territorial, com hábitos principalmente noturno-crepusculares. Atualmente, está classificada na IUCN como pouco preocupante.
+                    </div>
+                    <div class="buttons">
+                        <button>Veja mais!</button>
+                        <button>Inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/img1.jpg">
+                <div class="content">
+                    <div class="title">
+                        Giraffa
+                    </div>
+                    <div class="description">
+                        Pescoçudo
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img2.jpg">
+                <div class="content">
+                    <div class="title">
+                        Leão
+                    </div>
+                    <div class="description">
+                        Maior Predador Africano
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+                <div class="content">
+                    <div class="title">
+                        Hipopótamo
+                    </div>
+                    <div class="description">
+                        Herbívoro De Grande Porte
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img4.jpg">
+                <div class="content">
+                    <div class="title">
+                        Jaguatirica
+                    </div>
+                    <div class="description">
+                        Felino Neotropical
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
